@@ -1,0 +1,179 @@
+<html>
+  <head>
+  <title>My Webpage</title>
+  <link rel="icon" type="image/png" href="comp3.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      
+      h1 {
+        font-family:'Outfit';
+        text-align:center;
+        color:#66ffff;
+      }
+      
+      
+  table,th,td{
+ 
+  border: 0.5px solid; 
+  margin: 10px;
+  width: 500px;
+  height: 50px;
+  text-align: justify;
+
+  }
+  body{
+  
+  
+    
+  font-family:'Outfit';
+  padding: 10px;
+  
+  
+  
+  }
+  head{
+  padding: 10px;
+  }
+  
+
+
+  p,head{
+  font-size: large;
+  padding: 10px;
+  
+  font-style:bold;
+  
+  }
+  #Contact{
+  font-size: large;
+  padding: 10px;
+  gap: 20px;
+  text-align:center;
+  
+  }
+  h2{
+  padding: 10px;
+  color:#66ffff;
+  font-family:"Outfit";
+  }
+  a{
+    text-decoration:none;
+  }
+
+  ul{
+    font-size:large;
+  }
+  #Project{
+    padding:10px;
+    font-style:bold;
+    font-size: larger;
+  }
+  #FirstImage{
+        float:right;
+    }
+    p,table,ul,img,#Contact{overflow: hidden; /* Ensures no overflow */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transform: translateX(-100%); /* Starts with the text off-screen to the left */
+    opacity: 0; /* Starts with the text being invisible */
+    animation: slide-in 4s forwards;}
+    @keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  h2,h1{overflow: hidden; /* Ensures no overflow */
+    white-space: nowrap; /* Prevents text from wrapping */
+    transform: translateX(-100%); /* Starts with the text off-screen to the left */
+    opacity: 0; /* Starts with the text being invisible */
+    animation: slide-in 2s forwards;}
+    @keyframes slide-in {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+  
+  html{
+    background-color:black;
+    color:white;
+  }
+  
+
+    </style>
+  
+    
+    <h1>Avi Parekh</h1>
+    <br><hr>
+    <h2>About Me</h2>
+    <img id="FirstImage" src ="football.png" width="128px" height="128px">
+    <p>I am Avi Parekh, I study in MPSTME Mumbai in First year B.Tech Cybersecurity. I enjoy coding, playing counter strike 2 and football. I am also very interested in cybersecurity<br> especially in penetration testing and bug bounties.<br><br> 
+    I look forward to joining a club as an executive web developer, app developer or the competitive programming department. Currently I know HTML, CSS and C++ but I am learning<br> javascript and bug bounty hunting. <br><br>
+    I have been coding in HTML and CSS since I was in 7<sup>th</sup> grade and have been programming in C++ and Python since I was in 8<sup>th</sup> grade.</p>
+    
+    
+    <h2>
+    My Academics
+    </h2></i>
+    <table>
+    <tr>
+      <th>Sr. No.</th>
+      <th>School</th>
+      <th>Grade</th>
+      <th>Exam</th>
+      <th>Percentage</th>
+      
+    </tr>
+    <tr>
+      <td>1.</td>
+      <td>Arbor International School</td>
+      <td>Class 10</td>
+      <td>CBSE Board Exam</td>
+      <td>91%</td>
+    </tr>
+    <tr>
+      <td>2.</td>
+      <td>Maharishi Vidya Mandir</td>
+      <td>Class 12</td>
+      <td>CBSE Board Exam </td>
+      <td>77%</td>
+    </tr>
+    </table>
+    <h2>My Previous Projects</h2>
+    <ul>
+        
+        <li>2021 IPL Fixture using HTML and CSS</li>
+        <li>Basic Calculator in C++</li>
+        <li>Random Number Guessing Game in C++</li>
+        <li>Celcius to Farenheit Converter in C++</li>
+        <li>Basic Gambling Game in C++</li>
+    </ul>
+    <h2>My Extracurricular Achievements</h2>
+      <ul>
+        <li>2<superscript>nd</superscript> place in my class running race, finishing 50m in 7.49 seconds.</li>
+        <li>Participated in multiple debates on topics such as "Caste-Based Reservation", "Should AI replace workers", etc.</li>
+        <li>1<superscript>st</superscript> place in my school football tournament finishing with 7 goals and 4 assists throughout the tournament.</li>
+      </ul>
+      
+     <br><br><br>
+      
+    <div id="Contact">
+    <a href="mailto:akparekh02@gmail.com">Email&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    <a href="https://github.com/Avi99999">Github&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    Contact Me: +91 83414 45721</div>
+  
+    
+    
+  </body>
+
+</html>
